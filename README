@@ -1,0 +1,26 @@
+GitHub
+Global setup:
+ Set up git
+  git config --global user.name "Rakebul Hasan"
+  git config --global user.email rakeb04@gmail.com
+        
+Next steps:
+  mkdir djcode
+  cd djcode
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:rhasan/djcode.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:rhasan/djcode.git
+  git push -u origin master
+      
+Importing a Subversion Repo?
+  Click here
+      
+When you're done:
+  Continue
